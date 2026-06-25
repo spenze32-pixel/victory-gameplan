@@ -1,5 +1,16 @@
-node_modules
-dist
-.env
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local env overrides (contains DB password — never commit)
 .env.local
 *.local
+
+# Vite temp files
+*.timestamp-*.mjs
+
+# OS files
+.DS_Store
+Thumbs.db
